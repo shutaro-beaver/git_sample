@@ -6,6 +6,11 @@ int main()
 {
     int a = 5; int b = 3;
     std::cout << sum(a,b) << std::endl;
+
+    a = 2;
+    b = 6;
+    std::cout << sum(a, b) << std::endl;
+    
     return 0;
 }
 
